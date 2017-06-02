@@ -3,5 +3,10 @@
 		{
 			"name": "test"
 		}
+	],
+	"design": [
+		{
+			"name": "Test"
+		}
 	]
 }
