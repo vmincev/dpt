@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mavo testing</title>
+	<script src="https://get.mavo.io/mavo.js"></script>
+	<link rel="stylesheet" href="https://get.mavo.io/mavo.css">
+</head>
+<body>
+
+<main mv-app="demo" mv-storage="https://github.com/vmincev/dpt/data">
+	<header>
+		<h1><a href="http://julesmuck.com"><img src="http://julesmuck.com/wp-content/uploads/2016/04/mucklogoBLCK.png" alt="Jules Muck" class="logo" /></a></h1>
+	</header>
+
+	<div>
+		<a property="painting" typeof="Painting" mv-multiple mv-attribute="none">
+			<img property="image" />
+			<p property="name" mv-default="[readable(to(filename(image), '.'))]"></p>
+		</a>
+	</div>
+
+	<footer>All art belongs to the awesome <a href="http://julesmuck.com">Jules Muck</a>, used here with permission.</footer>
+</main>
+
+</body>
+</html>
